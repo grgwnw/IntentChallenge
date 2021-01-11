@@ -62,7 +62,11 @@
             android:layout_margin="10dp"
             android:clickable="true"
             android:src="@drawable/sad" />
-
     </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:id="@+id/testing"/>
 
 </LinearLayout>

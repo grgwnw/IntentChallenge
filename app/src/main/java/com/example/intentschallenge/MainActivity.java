@@ -63,11 +63,11 @@ public class MainActivity extends AppCompatActivity {
             //Else set the data equal (it was checked by CreateContactActivity.java before sent
             this.data = data.getStringArrayExtra("data");
             //Change emotion based on what they selected in the previous create contact
-            if(this.data[1] == getString(R.string.sad))
+            if(this.data[1].equals(getString(R.string.sad)))
                 emotion.setImageResource(R.drawable.sad);
-            if(this.data[1] == getString(R.string.meh))
+            if(this.data[1].equals(getString(R.string.meh)))
                 emotion.setImageResource(R.drawable.meh);
-            if(this.data[1] == getString(R.string.happy))
+            if(this.data[1].equals(getString(R.string.happy)))
                 emotion.setImageResource(R.drawable.happy);
 
             //Make buttons visible
