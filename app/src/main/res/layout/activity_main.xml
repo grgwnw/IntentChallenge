@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#006A3A3A"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:padding="40dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contacts App"
+        android:gravity="center_horizontal"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/sad"
+        android:id="@+id/emotion"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:clickable="false"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/phone"
+        android:id="@+id/phone"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/web"
+        android:id="@+id/web"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:visibility="gone"
+        />
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/pin"
+        android:id="@+id/pin"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="10dp"
+        android:clickable="true"
+        android:visibility="gone"
+        />
+    <Button
+        android:id="@+id/createContact"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_700"
+        android:text="Create New Contact" />
+</LinearLayout>
