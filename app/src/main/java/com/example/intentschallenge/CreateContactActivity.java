@@ -20,6 +20,9 @@ public class CreateContactActivity extends AppCompatActivity {
         number = findViewById(R.id.number);
         website = findViewById(R.id.website);
         location = findViewById(R.id.location);
+        happy = findViewById(R.id.happy);
+        meh = findViewById(R.id.meh);
+        sad = findViewById(R.id.sad);
         happy.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
